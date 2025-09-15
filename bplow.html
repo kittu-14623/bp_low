@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BP Low Solution</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>BP Low - First Aid & Daily Care</h1>
+</header>
+
+
+<main>
+<section class="user-settings">
+<h2>User Settings</h2>
+<label>Enter Your Name:
+<input type="text" id="userName" placeholder="Your name">
+</label>
+<label>Emergency Number:
+<input type="text" id="emergencyNumber" placeholder="e.g. 112 or +91xxxxxxxxxx">
+</label>
+<label>Create Password:
+<input type="password" id="userPassword" placeholder="Set a password">
+</label>
+<button class="button" onclick="saveUserSettings()">💾 Save Settings</button>
+</section>
+
+
+<section>
+<h2>Immediate First Aid</h2>
+<ul>
+<li>Lay the person down flat and raise their legs.</li>
+<li>Give water, juice, or oral rehydration solution.</li>
+<li>Offer something salty like crackers or soup.</li>
+<li>Loosen tight clothing and keep them calm.</li>
+<li>Seek emergency help if they faint or have chest pain.</li>
+</ul>
+<a id="callEmergency" href="#" class="button" onclick="callEmergency()">📞 Call Emergency (1 Tap)</a>
+</section>
+
+
+<section>
+<h2>Daily Care Tips</h2>
+<ul>
+<li>Drink 2–3 liters of water daily.</li>
+<li>Include enough salt (unless restricted by a doctor).</li>
+<li>Eat smaller, frequent meals.</li>
+<li>Rise slowly from sitting or lying down.</li>
+<li>Do light daily exercise to improve circulation.</li>
+</ul>
+</section>
+
+
+<section>
+<h2>When to See a Doctor</h2>
+<ul>
+<li>If low BP is frequent or severe.</li>
+<li>If there is fainting, chest pain, or irregular heartbeat.</li>
+<li>After injury, bleeding, or serious illness.</li>
+</ul>
+</section>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
