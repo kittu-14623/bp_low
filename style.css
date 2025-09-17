@@ -1,3 +1,4 @@
+
 body {
 font-family: Arial, sans-serif;
 background: #f4f8fb;
@@ -34,6 +35,8 @@ padding: 0.7rem 1.2rem;
 background: #4a90e2;
 color: white;
 text-decoration: none;
+border: none;
+cursor: pointer;
 border-radius: 4px;
 }
 .button:hover {
@@ -43,4 +46,14 @@ background: #357ABD;
 margin-bottom: 2rem;
 background: #eef4fa;
 padding: 1rem;
+border-radius: 6px;
+}
+label {
+display: block;
+margin-top: 0.5rem;
+}
+input[type="text"], input[type="password"], input[type="tel"] {
+width: 100%;
+padding: 0.5rem;
+margin-top: 0.3rem;
 }
